@@ -3,9 +3,9 @@
     "FormsApp-OidcClient": {
       "commandName": "Project",
       "environmentVariables": {
-        "OpenIDRealmURI": "https://auth.c.ucnit.eu/realms/xOIDCx",
+        "OpenIDRealmURI": "https://auth.a.ucnit.eu/realms/xOIDCx",
         "OpenIDClient": "Alice",
-        "OpenIDSecret": "6zaZi58YBm24WgURUBtn5fbKVFGz8jsy",
+        "OpenIDSecret": "JvDnso8O773pE9ENJdRhsrJd5pVD5Q86",
         "Scope": "email profile roles openid",
         "OpenIDRedirectURI": "https://localhost/winforms.client"
       }

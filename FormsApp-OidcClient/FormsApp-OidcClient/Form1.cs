@@ -92,7 +92,7 @@ namespace FormsApp_OidcClient
             OpenIDTokenResponse tokenResponse;
             using (HttpClient client = new HttpClient())
             {
-                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://auth.c.ucnit.eu/realms/xOIDCx/protocol/openid-connect/token");
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://auth.a.ucnit.eu/realms/xOIDCx/protocol/openid-connect/token");
                 var collection = new List<KeyValuePair<string, string>>();
                 collection.Add(new("response_type", "code"));
                 collection.Add(new("client_id", Environment.GetEnvironmentVariable("OpenIDClient")));
